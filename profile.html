@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+      
+</head>
+<body>
+    <div>
+        <header>
+            <div class="contenier">
+                <nav class="navbar">
+                  <h1></h1>
+                    <h3 style="color: red;">Your logo</h1>
+                    <i class="fas fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+                    <ul id="nav-links">
+                      <li><a href="#header">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#services">Services</a></li>
+                      <li><a href="#protfolio">Portfolio</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                      <button id="theme-toggle" onclick="toggleTheme()">🌗</button>
+                      
+
+                    </ul>
+                    
+                  </nav>
+                  <canvas id="bgCanvas"></canvas>
+
+                      <div class="header-text">
+                    <p id="v" class="y ">ui/ux Designer </p>
+                    <h1 id="king" class="y">Hi I'm <span>xyz</span><br> Chokshi from India</h1>
+                    </div>
+         </div>
+        </header>        
+        </div>
+    <!------------about me------------->
+
+        <div id="about">
+            
+            <div class="contenier">
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1 >your image here </h1>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub" id="k">About Me</h1>
+                        <p>
+                            Cascading Style Sheets, or CSS, is a way to change the look of HTML and XHTML web pages. CSS was designed by the W3C, and is supported well by most modern web browsers. The current version of CSS is CSS3. CSS4 is available, but is split into parts.
+                            One advantage to using CSS is a web page can still be displayed, even if the CSS is not working or removed.                            
+                            CSS code is saved in files with the .css file extension.
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">experience</p>
+                            <p class="tab-links" onclick="opentab('education')">education</p>
+                        </div>
+                        <div class="tab-contens active-tab" id="skills">
+                            <div class="skill-bar">
+                                <p>UI/UX Design</p>
+                                <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+                              
+                                <p>Web Development</p>
+                                <div class="bar"><div class="fill" style="width: 85%;"></div></div>
+                              
+                                <p>Game Development</p>
+                                <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+                              </div>
+                              
+                        </div>
+                        <div class="tab-contens" id="experience">
+                            <ul>
+                                <li><span>2032-current</span><br>Making game releted to the mythology in indus institute</li>
+                                <li><span>2030-2032</span><br>hod of degining industry of e\Elephant design </li>
+                                <li><span>2028-2030</span><br>manager in Elephant design</li>
+
+                                </ul>
+                        </div>
+                        <div class="tab-contens" id="education">
+                            <ul>
+                                <li><span>2028</span><br>B.E in IT from BVM</li>
+                                <li><span>2024</span><br>12th pass from kowlage high school</li>
+                                <li><span>2022</span><br>10th pass from saraswati vidhyalaya</li>
+
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------services-------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services </h1>
+                <div class="services-list">
+<div>
+    <i class="fas fa-code"></i>
+    <h2>Web Design<h2>
+        <p>Persuasive web designs contribute to the quality conversion of leads into a potential pond of traffic, elevating the success of your business operations.</p>
+         <a herf="#">Learn more</a>
+</div>
+<div>
+    <i class="fas fa-crop"></i>
+    <h2>ui/ux Design<h2>
+        <p>UI/UX design services focus on creating user-friendly and visually appealing digital experiences for websites and applications.</p>
+         <a herf="#">Learn more</a>
+
+</div>
+<div>
+    <i class="fab fa-app-store"></i>
+    <h2>game  Design<h2>
+        <p>Game design services encompass the creation and refinement of every aspect of a game, from core mechanics and gameplay to the overall user experience.</p>         
+        <a herf="#">Learn more</a>
+        
+    </div>
+
+                </div>
+            </div>
+        </div>
+    <!--------------protfolio-->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">My work </h1>
+            <div class="work-list">
+                <div class="work" id="si"><img src="img/work-1.png" >
+                <div class="layer">
+                    <h3>social media app </h3>
+                    <p>the app connects you yo the talented pepole aroung the world.
+                        Downlod it from play store. </p> 
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>    
+                        <h3>In this icon tag you can put your link and as well as you change the  pic </h3>         
+                     </div>
+                    </div>
+                <div class="work" id="se">
+                    <img src="img/work-2.png" >
+                    <div class="layer">
+                        <h3>music app </h3>
+                        <p>the app connects you yo the talented pepole aroung the world.
+                            Downlod it from play store.</p>
+                            <a href=""><i class="fas fa-external-link-alt"></i></a> 
+                            <h3>In this icon tag you can put your link and as well as you change the app pic </h3>  
+                        </div>
+                            </div>
+                <div class="work" id="ei">
+                    <img src="img/work-3.png" >
+                    <div class="layer">
+                        <h3>Online shop app </h3>
+                        <p>the app connects you yo the talented pepole aroung the world.
+                            Downlod it from play store.</p>
+                            <a href=""><i class="fas fa-external-link-alt"></i></a> 
+                            <h3>In this icon you can put your link and as well as you change the app pic </h3>  
+                            </div>
+                            
+                        </div>
+
+            </div>
+            <a href="" class="btn" target="new tab">See More</a> 
+            <h3>if you make more aaps and all you can add your link here in this see more</h3>
+           
+        </div>
+    </div>
+    <!---------------------contect----------------->  
+     <h3>You can and google sheet beside my sheet rmove my sheet from script and add yours </h3>
+    <div id="contact" class="contact-section">
+        <div class="container contact-container">
+          <div class="contact-card">
+            <div class="contact-info">
+              <h1 class="contact-title">Let's Connect</h1>
+              <p><i class="fas fa-envelope"></i> contact@example.com</p>
+              <p><i class="fas fa-phone"></i> 0123456789</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/share/1AFYRnSm7j/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/vyom_chokshi?igsh=enQ0cG16N2NwMGFx"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/vyom-chokshi-47639833b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a><br>
+                <h3>Here you can put your link ,I put it as example.<h3>
+              </div>
+              <a href="my-cv.pdf" download class="btn-glow">Download CV</a>
+            </div>
+      
+            <div class="contact-form">
+              <form name="submit-to-google-sheet" id="myForm">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="massage" rows="5" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn-glow">Send Message</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    <div id="cursor"></div>
+
+    <!---------------------------------------------------------------------------->
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontens=document.getElementsByClassName("tab-contens");
+// it is for when i click on one the other will be disapper
+            function opentab(tabname){
+                for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+                }
+                for(tabconten of tabcontens){
+               tabconten.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");//it add red line to the all
+                document.getElementById(tabname).classList.add("active-tab");//it will be take out put from the uper side tab name and get active tab property
+            }
+            </script>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbzuz9OJTOuTwHVTQwzlJbYL_tN_lvwCSFcn0YLJhqMb7hc0qEHJrs1-PUwCIKecPTvCQQ/exec';
+                const form = document.forms['submit-to-google-sheet'];
+                const msg = document.getElementById('msg');
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault();
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                      msg.innerHTML = "Message sent successfully!";
+                      setTimeout(() => msg.innerHTML = "", 5000);
+                      form.reset();
+                    })
+                    .catch(error => console.error('Error!', error.message));
+                });
+              </script>
+              
+              <script>
+                const cursor = document.getElementById('cursor');
+                document.addEventListener('mousemove', e => {
+                  cursor.style.left = `${e.clientX}px`;
+                  cursor.style.top = `${e.clientY}px`;
+                });
+              </script>
+              <script>
+                function toggleMenu() {
+                  document.getElementById("nav-links").classList.toggle("active");
+                }
+              </script>
+              <script>
+                // Tilt Effect + Hover Sound
+                VanillaTilt.init(document.querySelectorAll(".work"), {
+                  max: 15,
+                  speed: 400,
+                  glare: true,
+                  "max-glare": 0.2
+                });
+              
+                document.querySelectorAll(".work").forEach(item => {
+                  item.addEventListener("mouseenter", () => {
+                    document.getElementById("hover-sound").play();
+                  });
+                });
+              </script>
+<!-- Sound + VanillaTilt Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<audio id="hover-sound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_3c26bdf5a1.mp3"></audio><script>
+    const canvas = document.getElementById('bgCanvas');
+    const ctx = canvas.getContext('2d');
+    let particlesArray = [];
+    let currentTheme = "dark";
+  
+    // Set canvas full screen
+    function setCanvasSize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+  
+    setCanvasSize();
+    window.addEventListener('resize', () => {
+      setCanvasSize();
+      initParticles();
+    });
+  
+    class Particle {
+      constructor(x, y, directionX, directionY, size, color) {
+        this.x = x;
+        this.y = y;
+        this.directionX = directionX;
+        this.directionY = directionY;
+        this.size = size;
+        this.color = color;
+      }
+  
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
+        ctx.fillStyle = this.color;
+        ctx.fill();
+      }
+  
+      update() {
+        if (this.x + this.size > canvas.width || this.x - this.size < 0) {
+          this.directionX = -this.directionX;
+        }
+        if (this.y + this.size > canvas.height || this.y - this.size < 0) {
+          this.directionY = -this.directionY;
+        }
+        this.x += this.directionX;
+        this.y += this.directionY;
+        this.draw();
+      }
+    }
+  
+    function initParticles() {
+  particlesArray = [];
+  const numberOfParticles = Math.floor((canvas.width * canvas.height) / 9000);
+
+  const color = currentTheme === "light" ? "rgba(0, 0, 0, 0.5)" : "#00ffff";
+
+  for (let i = 0; i < numberOfParticles; i++) {
+    const size = Math.random() * 2 + 1;
+    const x = Math.random() * (canvas.width - size * 2);
+    const y = Math.random() * (canvas.height - size * 2);
+    const directionX = (Math.random() - 0.5) * 1;
+    const directionY = (Math.random() - 0.5) * 1;
+    particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
+  }
+}
+function animateParticles() {
+  requestAnimationFrame(animateParticles);
+
+  // Light background gradient
+  if (currentTheme === "light") {
+    const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+    gradient.addColorStop(0, "#ffffff");
+    gradient.addColorStop(1, "#e0e0ff");
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  } else {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  }
+
+  particlesArray.forEach(particle => particle.update());
+}
+
+  
+    function animateParticles() {
+      requestAnimationFrame(animateParticles);
+      if (currentTheme === "light") {
+  ctx.fillStyle = "#ffffff"; // light background
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+} else {
+  ctx.fillStyle = "#000000"; // dark background
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+}
+
+      particlesArray.forEach(particle => particle.update());
+    }
+  
+    function updateThemeParticles() {
+      currentTheme = document.body.classList.contains("light-theme") ? "light" : "dark";
+      initParticles();
+    }
+  
+    // Watch for theme toggle
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+      setTimeout(updateThemeParticles, 100); // allow time for class to apply
+    });
+  
+    initParticles();
+    animateParticles();
+  </script>
+  
+  <script>
+    function toggleTheme() {
+  document.body.classList.toggle("light-theme");
+}
+
+
+  </script>
+  
+  
+              
+              
+              </body>
+              </html>
+             
